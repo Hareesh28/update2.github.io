@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Advertisement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333; /* Set the default text color */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white; /* Set the link color in the navigation */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .advertisement {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff; /* Set a default background color for buttons */
+            color: white; /* Set a default text color for buttons */
+        }
+        
+        /* Adjusted styles for better contrast */
+        button[fdprocessedid="pk4pe"] {
+            color: #000;
+            background-color: #ffc107; /* Adjust background color as needed */
+        }
+
+        button[fdprocessedid="yzb2frj"] {
+            color: #000;
+            background-color: #ffc107; /* Adjust background color as needed */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mobile Advertisement</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Categories</a> |
+        <a href="#">About</a>
+    </nav>
+
+    <section>
+        <div class="filter">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search" placeholder="Search..." fdprocessedid="08etql">
+            <button onclick="search()" fdprocessedid="pk4pe">Search</button>
+        </div>
+
+        <div class="advertisement">
+            <img src="advertisement_image.jpg" alt="Advertisement Image">
+            <h2>Product Title</h2>
+            <p>Description of the product goes here.</p>
+            <button fdprocessedid="yzb2frj">Learn More</button>
+        </div>
+
+        <!-- Add more advertisements here -->
+
+    </section>
+
+    <footer>
+        &copy; 2023 Mobile Advertisement. All rights reserved.
+    </footer>
+
+    <script>
+        function search() {
+            // Implement search functionality here
+            alert("Search button clicked");
+        }
+    </script>
+</body>
+</html>
